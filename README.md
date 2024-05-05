@@ -1,0 +1,1 @@
+Docker run :  sudo docker run -e DB_PASSWORD={your_pass} -p 9006:9006 ms-user-v3:<tag>

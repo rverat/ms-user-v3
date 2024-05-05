@@ -1,0 +1,10 @@
+server:
+  port: 9006
+
+spring:
+  application:
+    name: ms-user-v3
+  r2dbc:
+    url: r2dbcs:mysql://userdbcluster.c9cws288i5tt.us-east-2.rds.amazonaws.com:3306/userdb
+    username: admin
+    password: ${DB_PASSWORD}
